@@ -62,7 +62,7 @@ public class Triangle {
 	}
 	
 	/**
-	 * Finds the hypotenuse of a triangle.
+	 * Finds the hypotenuse of a right triangle.
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of the other side.
 	 * @return The length of the hypotenuse.
@@ -75,7 +75,7 @@ public class Triangle {
 	}
 	
 	/**
-	 * Finds the hypotenuse of a triangle.
+	 * Finds the hypotenuse of a right triangle.
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of the other side.
 	 * @return The length of the hypotenuse.
@@ -88,54 +88,132 @@ public class Triangle {
 	}
 	
 	/**
-	 * Finds the hypotenuse of a triangle.
+	 * Finds the hypotenuse of a right triangle.
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of the other side.
 	 * @return The length of the hypotenuse.
 	 */
 	public static int getHypotenuse(int sideLength1, int sideLength2) {
-		int side1 = (int) (sideLength1 * sideLength1);
-		int side2 = (int) (sideLength2 * sideLength2);
+		int side1 = sideLength1 * sideLength1;
+		int side2 = sideLength2 * sideLength2;
 		
 		return (int) Math.sqrt(side1 + side2);
 	}
 	
 	/**
-	 * Finds the hypotenuse of a triangle.
+	 * Finds the hypotenuse of a right triangle.
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of the other side.
 	 * @return The length of the hypotenuse.
 	 */
 	public static float getHypotenuse(float sideLength1, float sideLength2) {
-		float side1 = (float) (sideLength1 * sideLength1);
-		float side2 = (float) (sideLength2 * sideLength2);
+		float side1 = sideLength1 * sideLength1;
+		float side2 = sideLength2 * sideLength2;
 		
 		return (float) Math.sqrt(side1 + side2);
 	}
 	
 	/**
-	 * Finds the hypotenuse of a triangle.
+	 * Finds the hypotenuse of a right triangle.
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of the other side.
 	 * @return The length of the hypotenuse.
 	 */
 	public static double getHypotenuse(double sideLength1, double sideLength2) {
-		double side1 = (double) (sideLength1 * sideLength1);
-		double side2 = (double) (sideLength2 * sideLength2);
+		double side1 = sideLength1 * sideLength1;
+		double side2 = sideLength2 * sideLength2;
 		
-		return (double) Math.sqrt(side1 + side2);
+		return Math.sqrt(side1 + side2);
 	}
 	
 	/**
-	 * Finds the hypotenuse of a triangle.
+	 * Finds the hypotenuse of a right triangle.
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of the other side.
 	 * @return The length of the hypotenuse.
 	 */
 	public static long getHypotenuse(long sideLength1, long sideLength2) {
-		long side1 = (long) (sideLength1 * sideLength1);
-		long side2 = (long) (sideLength2 * sideLength2);
+		long side1 = sideLength1 * sideLength1;
+		long side2 = sideLength2 * sideLength2;
 		
 		return (long) Math.sqrt(side1 + side2);
+	}
+	
+	/**
+	 * Finds the missing side of a right triangle.
+	 * @param side The length of one of the sides, not the hypotenuse.
+	 * @param hypotenuse The length of the hypotenuse.
+	 * @return The length of the missing side.
+	 */
+	public static byte getMissingSide(byte side, byte hypotenuse) {
+		byte hypotenuseSq = (byte) (hypotenuse * hypotenuse);
+		byte sideSq = (byte) (side * side);
+		
+		return (byte) Math.sqrt(hypotenuseSq - sideSq);
+	}
+	
+	/**
+	 * Finds the missing side of a right triangle.
+	 * @param side The length of one of the sides, not the hypotenuse.
+	 * @param hypotenuse The length of the hypotenuse.
+	 * @return The length of the missing side.
+	 */
+	public static short getMissingSide(short side, short hypotenuse) {
+		short hypotenuseSq = (short) (hypotenuse * hypotenuse);
+		short sideSq = (short) (side * side);
+		
+		return (short) Math.sqrt(hypotenuseSq - sideSq);
+	}
+	
+	/**
+	 * Finds the missing side of a right triangle.
+	 * @param side The length of one of the sides, not the hypotenuse.
+	 * @param hypotenuse The length of the hypotenuse.
+	 * @return The length of the missing side.
+	 */
+	public static int getMissingSide(int side, int hypotenuse) {
+		int hypotenuseSq = hypotenuse * hypotenuse;
+		int sideSq = side * side;
+		
+		return (int) Math.sqrt(hypotenuseSq - sideSq);
+	}
+	
+	/**
+	 * Finds the missing side of a right triangle.
+	 * @param side The length of one of the sides, not the hypotenuse.
+	 * @param hypotenuse The length of the hypotenuse.
+	 * @return The length of the missing side.
+	 */
+	public static float getMissingSide(float side, float hypotenuse) {
+		double hypotenuseSq = hypotenuse * hypotenuse;
+		double sideSq = side * side;
+		
+		return (float) Math.sqrt(hypotenuseSq - sideSq);
+	}
+	
+	/**
+	 * Finds the missing side of a right triangle.
+	 * @param side The length of one of the sides, not the hypotenuse.
+	 * @param hypotenuse The length of the hypotenuse.
+	 * @return The length of the missing side.
+	 */
+	public static double getMissingSide(double side, double hypotenuse) {
+		double hypotenuseSq = hypotenuse * hypotenuse;
+		double sideSq = side * side;
+		
+		return Math.sqrt(hypotenuseSq - sideSq);
+	}
+	
+	/**
+	 * Finds the missing side of a right triangle.
+	 * @param side The length of one of the sides, not the hypotenuse.
+	 * @param hypotenuse The length of the hypotenuse.
+	 * @return The length of the missing side.
+	 */
+	public static long getMissingSide(long side, long hypotenuse) {
+		long hypotenuseSq = hypotenuse * hypotenuse;
+		long sideSq = side * side;
+		
+		return (long) Math.sqrt(hypotenuseSq - sideSq);
 	}
 }
