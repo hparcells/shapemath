@@ -1,5 +1,11 @@
 package hunter.shapeMath.shapes.twoD;
 
+/**
+ * All Circle Based Math.
+ * 
+ * @author Hunter Parcells
+ *
+ */
 public class Circle {
 	/**
 	 * Finds the area of the circle given the radius.

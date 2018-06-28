@@ -1,5 +1,11 @@
 package hunter.shapeMath.shapes.twoD;
 
+/**
+ * All Triangle Based Math.
+ * 
+ * @author Hunter Parcells
+ *
+ */
 public class Triangle {
 	/**
 	 * Finds the area of the triangle given the base and height lengths.
