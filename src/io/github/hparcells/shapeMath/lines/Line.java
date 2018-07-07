@@ -1,5 +1,10 @@
 package io.github.hparcells.shapeMath.lines;
 
+/**
+ * All Line and Graph Based Math.
+ * 
+ * @author Hunter Parcells
+ */
 public class Line {
 	/**
 	 * Checks if the lines are parallel and returns the answer accordingly.
@@ -18,6 +23,22 @@ public class Line {
 		double slope2 = (y4 - y3) / (x4 - x3);
 		
 		if(slope1 == slope2) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	/**
+	 * Checks if the lines are perpendicular given both slopes and returns the answer accordingly.
+	 * @param slope1 The slope of the first line.
+	 * @param slope2 The slope of the second line.
+	 * @return True if the lines are perpendicular, else it returns false.
+	 */
+	public static boolean isPerpendicular(double slope1, double slope2) {
+		double finalSlope1 = 1 / -slope1;
+		
+		if(finalSlope1 == slope2) {
 			return true;
 		}else {
 			return false;
