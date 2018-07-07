@@ -132,4 +132,112 @@ public class Circle {
 		long beforeSq = (long) (Math.PI * radius);
 		return beforeSq * beforeSq;
 	}
+	
+	/**
+	 * Finds the circumference of a circle given the diameter.
+	 * @param diameter The diameter of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static byte circumferenceByDiameter(byte diameter) {
+		return (byte) (Math.PI * diameter);
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the diameter.
+	 * @param diameter The diameter of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static short circumferenceByDiameter(short diameter) {
+		return (short) (Math.PI * diameter);
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the diameter.
+	 * @param diameter The diameter of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static short circumferenceByDiameter(int diameter) {
+		return (short) (Math.PI * diameter);
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the diameter.
+	 * @param diameter The diameter of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static float circumferenceByDiameter(float diameter) {
+		return (float) (Math.PI * diameter);
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the diameter.
+	 * @param diameter The diameter of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static double circumferenceByDiameter(double diameter) {
+		return Math.PI * diameter;
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the diameter.
+	 * @param diameter The diameter of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static long circumferenceByDiameter(long diameter) {
+		return (long) (Math.PI * diameter);
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the radius.
+	 * @param radius The radius of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static byte circumferenceByRadius(byte radius) {
+		return (byte) (Math.PI * (radius / 2));
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the radius.
+	 * @param radius The radius of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static short circumferenceByRadius(short radius) {
+		return (short) (Math.PI * (radius / 2));
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the radius.
+	 * @param radius The radius of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static int circumferenceByRadius(int radius) {
+		return (int) (Math.PI * (radius / 2));
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the radius.
+	 * @param radius The radius of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static float circumferenceByRadius(float radius) {
+		return (float) (Math.PI * (radius / 2));
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the radius.
+	 * @param radius The radius of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static double circumferenceByRadius(double radius) {
+		return Math.PI * (radius / 2);
+	}
+	
+	/**
+	 * Finds the circumference of a circle given the radius.
+	 * @param radius The radius of the circle.
+	 * @return The circumference of the circle.
+	 */
+	public static long circumferenceByRadius(long radius) {
+		return (long) (Math.PI * (radius / 2));
+	}
 }
