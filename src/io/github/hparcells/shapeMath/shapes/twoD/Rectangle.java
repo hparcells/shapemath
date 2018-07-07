@@ -1,4 +1,4 @@
-package hunter.shapeMath.shapes.twoD;
+package io.github.hparcells.shapeMath.shapes.twoD;
 
 /**
  * All Rectangle Based Math.
