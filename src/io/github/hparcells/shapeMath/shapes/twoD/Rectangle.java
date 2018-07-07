@@ -10,8 +10,7 @@ public class Rectangle {
 	/**
 	 * Finds the area of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The area of the square.
 	 */
 	public static byte area(byte sideLength) {
@@ -21,8 +20,7 @@ public class Rectangle {
 	/**
 	 * Finds the area of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The area of the square.
 	 */
 	public static short area(short sideLength) {
@@ -32,8 +30,7 @@ public class Rectangle {
 	/**
 	 * Finds the area of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The area of the square.
 	 */
 	public static int area(int sideLength) {
@@ -43,8 +40,7 @@ public class Rectangle {
 	/**
 	 * Finds the area of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The area of the square.
 	 */
 	public static float area(float sideLength) {
@@ -54,8 +50,7 @@ public class Rectangle {
 	/**
 	 * Finds the area of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The area of the square.
 	 */
 	public static double area(double sideLength) {
@@ -65,8 +60,7 @@ public class Rectangle {
 	/**
 	 * Finds the area of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The area of the square.
 	 */
 	public static long area(long sideLength) {
@@ -76,10 +70,8 @@ public class Rectangle {
 	/**
 	 * Finds the area of a rectangle given two side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The area of the rectangle.
 	 */
 	public static byte area(byte sideLength1, byte sideLength2) {
@@ -89,10 +81,8 @@ public class Rectangle {
 	/**
 	 * Finds the area of a rectangle given two side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The area of the rectangle.
 	 */
 	public static short area(short sideLength1, short sideLength2) {
@@ -102,10 +92,8 @@ public class Rectangle {
 	/**
 	 * Finds the area of a rectangle given two side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The area of the rectangle.
 	 */
 	public static int area(int sideLength1, int sideLength2) {
@@ -115,10 +103,8 @@ public class Rectangle {
 	/**
 	 * Finds the area of a rectangle given two side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The area of the rectangle.
 	 */
 	public static float area(float sideLength1, float sideLength2) {
@@ -128,10 +114,8 @@ public class Rectangle {
 	/**
 	 * Finds the area of a rectangle given two side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The area of the rectangle.
 	 */
 	public static double area(double sideLength1, double sideLength2) {
@@ -141,10 +125,8 @@ public class Rectangle {
 	/**
 	 * Finds the area of a rectangle given two side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 he length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The area of the rectangle.
 	 */
 	public static long area(long sideLength1, long sideLength2) {
@@ -154,8 +136,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the area.
 	 * 
-	 * @param area
-	 *            The area of the rectangle.
+	 * @param area The area of the rectangle.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static byte perimeterByArea(byte area) {
@@ -167,8 +148,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the area.
 	 * 
-	 * @param area
-	 *            The area of the rectangle.
+	 * @param area The area of the rectangle.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static short perimeterByArea(short area) {
@@ -180,8 +160,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the area.
 	 * 
-	 * @param area
-	 *            The area of the rectangle.
+	 * @param area The area of the rectangle.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static int perimeterByArea(int area) {
@@ -193,8 +172,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the area.
 	 * 
-	 * @param area
-	 *            The area of the rectangle.
+	 * @param area The area of the rectangle.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static float perimeterByArea(float area) {
@@ -206,8 +184,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the area.
 	 * 
-	 * @param area
-	 *            The area of the rectangle.
+	 * @param area The area of the rectangle.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static double perimeterByArea(double area) {
@@ -219,8 +196,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the area.
 	 * 
-	 * @param area
-	 *            The area of the rectangle.
+	 * @param area The area of the rectangle.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static long perimeterByArea(long area) {
@@ -232,8 +208,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The perimeter of the square.
 	 */
 	public static byte perimeterBySide(byte sideLength) {
@@ -243,8 +218,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The perimeter of the square.
 	 */
 	public static short perimeterBySide(short sideLength) {
@@ -254,8 +228,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The perimeter of the square.
 	 */
 	public static int perimeterBySide(int sideLength) {
@@ -265,8 +238,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The perimeter of the square.
 	 */
 	public static float perimeterBySide(float sideLength) {
@@ -276,8 +248,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The perimeter of the square.
 	 */
 	public static double perimeterBySide(double sideLength) {
@@ -287,8 +258,7 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a square given the side length.
 	 * 
-	 * @param sideLength
-	 *            The length of one of the sides.
+	 * @param sideLength The length of one of the sides.
 	 * @return The perimeter of the square.
 	 */
 	public static long perimeterBySide(long sideLength) {
@@ -298,10 +268,8 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static byte perimeterBySide(byte sideLength1, byte sideLength2) {
@@ -311,10 +279,8 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static short perimeterBySide(short sideLength1, short sideLength2) {
@@ -324,10 +290,8 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static int perimeterBySide(int sideLength1, int sideLength2) {
@@ -337,10 +301,8 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static float perimeterBySide(float sideLength1, float sideLength2) {
@@ -350,10 +312,8 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static double perimeterBySide(double sideLength1, double sideLength2) {
@@ -363,10 +323,8 @@ public class Rectangle {
 	/**
 	 * Finds the perimeter of a rectangle given the side lengths.
 	 * 
-	 * @param sideLength1
-	 *            The length of one of the sides.
-	 * @param sideLength2
-	 *            The length of one of the other side.
+	 * @param sideLength1 The length of one of the sides.
+	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rectangle.
 	 */
 	public static long perimeterBySide(long sideLength1, long sideLength2) {
