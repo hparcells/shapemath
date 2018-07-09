@@ -1,4 +1,4 @@
-package io.github.hparcells.shapeMath.shapes.twoD;
+package io.github.hparcells.shapemath.shapes.twod;
 
 /**
  * All Rectangle Based Math.

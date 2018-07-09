@@ -1,4 +1,4 @@
-package io.github.hparcells.shapeMath.lines;
+package io.github.hparcells.shapemath.lines;
 
 /**
  * All Line and Graph Based Math.
@@ -22,11 +22,7 @@ public class Line {
 		double slope1 = (y2 - y1) / (x2 - x1);
 		double slope2 = (y4 - y3) / (x4 - x3);
 		
-		if(slope1 == slope2) {
-			return true;
-		}else {
-			return false;
-		}
+		return slope1 == slope2;
 	}
 	
 	/**
@@ -38,10 +34,6 @@ public class Line {
 	public static boolean isPerpendicular(double slope1, double slope2) {
 		double finalSlope1 = 1 / -slope1;
 		
-		if(finalSlope1 == slope2) {
-			return true;
-		}else {
-			return false;
-		}
+		return finalSlope1 == slope2;
 	}
 }
