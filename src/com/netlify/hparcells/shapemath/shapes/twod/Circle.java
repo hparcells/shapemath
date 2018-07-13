@@ -1,4 +1,4 @@
-package io.github.hparcells.shapemath.shapes.twod;
+package com.netlify.hparcells.shapemath.shapes.twod;
 
 /**
  * All Circle Based Math.

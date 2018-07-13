@@ -1,4 +1,4 @@
-package io.github.hparcells.shapemath.lines;
+package com.netlify.hparcells.shapemath.lines;
 
 /**
  * All Line and Graph Based Math.
