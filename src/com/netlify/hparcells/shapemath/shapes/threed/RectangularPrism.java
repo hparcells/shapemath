@@ -1,7 +1,7 @@
 package com.netlify.hparcells.shapemath.shapes.threed;
 
 /**
- * All Rectangle Based Math.
+ * All Rectangular Prism Based Math.
  * @author Hunter Parcells
  *
  */
