@@ -4,7 +4,6 @@ package com.netlify.hparcells.shapemath.shapes.twod;
  * All Triangle Based Math.
  * 
  * @author Hunter Parcells
- *
  */
 public class Triangle {
 	/**

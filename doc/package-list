@@ -1,2 +1,3 @@
-io.github.hparcells.shapemath.lines
-io.github.hparcells.shapemath.shapes.twod
+com.netlify.hparcells.shapemath.lines
+com.netlify.hparcells.shapemath.shapes.threed
+com.netlify.hparcells.shapemath.shapes.twod

@@ -2,8 +2,8 @@ package com.netlify.hparcells.shapemath.shapes.threed;
 
 /**
  * All Rectangular Prism Based Math.
+ * 
  * @author Hunter Parcells
- *
  */
 public class RectangularPrism {
 	/**

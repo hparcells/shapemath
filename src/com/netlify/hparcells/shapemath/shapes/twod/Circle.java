@@ -4,7 +4,6 @@ package com.netlify.hparcells.shapemath.shapes.twod;
  * All Circle Based Math.
  * 
  * @author Hunter Parcells
- *
  */
 public class Circle {
 	/**

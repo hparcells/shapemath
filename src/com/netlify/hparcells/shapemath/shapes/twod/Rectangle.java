@@ -4,7 +4,6 @@ package com.netlify.hparcells.shapemath.shapes.twod;
  * All Rectangle Based Math.
  * 
  * @author Hunter Parcells
- *
  */
 public class Rectangle {
 	/**
