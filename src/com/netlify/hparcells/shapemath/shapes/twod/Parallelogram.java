@@ -145,73 +145,13 @@ public class Parallelogram {
 	}
 
 	/**
-	 * Finds the perimeter of a parallelogram given the side length.
-	 * 
-	 * @param sideLength The length of one of the sides.
-	 * @return The perimeter of the parallelogram.
-	 */
-	public static byte perimeterBySide(byte sideLength) {
-		return (byte) (sideLength * 4);
-	}
-
-	/**
-	 * Finds the perimeter of a parallelogram given the side length.
-	 * 
-	 * @param sideLength The length of one of the sides.
-	 * @return The perimeter of the parallelogram.
-	 */
-	public static short perimeterBySide(short sideLength) {
-		return (short) (sideLength * 4);
-	}
-
-	/**
-	 * Finds the perimeter of a parallelogram given the side length.
-	 * 
-	 * @param sideLength The length of one of the sides.
-	 * @return The perimeter of the parallelogram.
-	 */
-	public static int perimeterBySide(int sideLength) {
-		return sideLength * 4;
-	}
-
-	/**
-	 * Finds the perimeter of a parallelogram given the side length.
-	 * 
-	 * @param sideLength The length of one of the sides.
-	 * @return The perimeter of the parallelogram.
-	 */
-	public static float perimeterBySide(float sideLength) {
-		return sideLength * 4;
-	}
-
-	/**
-	 * Finds the perimeter of a parallelogram given the side length.
-	 * 
-	 * @param sideLength The length of one of the sides.
-	 * @return The perimeter of the parallelogram.
-	 */
-	public static double perimeterBySide(double sideLength) {
-		return sideLength * 4;
-	}
-
-	/**
-	 * Finds the perimeter of a parallelogram given the side length.
-	 * 
-	 * @param sideLength The length of one of the sides.
-	 * @return The perimeter of the parallelogram.
-	 */
-	public static long perimeterBySide(long sideLength) {
-		return sideLength * 4;
-	}
-
-	/**
 	 * Finds the perimeter of a parallelogram given the side lengths.
 	 * 
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the parallelogram.
 	 */
-	public static byte perimeterBySide(byte sideLength1, byte sideLength2) {
+	public static byte perimeterBySides(byte sideLength1, byte sideLength2) {
 		return (byte) (sideLength1 + sideLength1 + sideLength2 + sideLength2);
 	}
 
@@ -222,7 +162,7 @@ public class Parallelogram {
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the parallelogram.
 	 */
-	public static short perimeterBySide(short sideLength1, short sideLength2) {
+	public static short perimeterBySides(short sideLength1, short sideLength2) {
 		return (short) (sideLength1 + sideLength1 + sideLength2 + sideLength2);
 	}
 
@@ -233,7 +173,7 @@ public class Parallelogram {
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the parallelogram.
 	 */
-	public static int perimeterBySide(int sideLength1, int sideLength2) {
+	public static int perimeterBySides(int sideLength1, int sideLength2) {
 		return sideLength1 + sideLength1 + sideLength2 + sideLength2;
 	}
 
@@ -244,7 +184,7 @@ public class Parallelogram {
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the parallelogram.
 	 */
-	public static float perimeterBySide(float sideLength1, float sideLength2) {
+	public static float perimeterBySides(float sideLength1, float sideLength2) {
 		return sideLength1 + sideLength1 + sideLength2 + sideLength2;
 	}
 
@@ -255,7 +195,7 @@ public class Parallelogram {
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the parallelogram.
 	 */
-	public static double perimeterBySide(double sideLength1, double sideLength2) {
+	public static double perimeterBySides(double sideLength1, double sideLength2) {
 		return sideLength1 + sideLength1 + sideLength2 + sideLength2;
 	}
 
@@ -266,7 +206,7 @@ public class Parallelogram {
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the parallelogram.
 	 */
-	public static long perimeterBySide(long sideLength1, long sideLength2) {
+	public static long perimeterBySides(long sideLength1, long sideLength2) {
 		return sideLength1 + sideLength1 + sideLength2 + sideLength2;
 	}
 }
