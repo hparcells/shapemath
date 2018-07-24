@@ -1,4 +1,4 @@
-package com.netlify.hparcells.shapemath.shapes.threed;
+package com.netlify.hparcells.shapemath.shapes.threedimensional;
 
 /**
  * All Rectangular Prism Based Math.
