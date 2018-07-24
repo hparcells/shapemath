@@ -1,4 +1,4 @@
-package com.netlify.hparcells.shapemath.shapes.twod;
+package com.netlify.hparcells.shapemath.shapes.twodimensional;
 
 /**
  * All Kite Based Math. Extends Rhombus.
