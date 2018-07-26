@@ -1,7 +1,7 @@
 package com.netlify.hparcells.shapemath.shapes.twodimensional;
 
 /**
- * All Square Based Math. Extends Rectangle.
+ * All Square Based Math.
  * 
  * @author Hunter Parcells
  */

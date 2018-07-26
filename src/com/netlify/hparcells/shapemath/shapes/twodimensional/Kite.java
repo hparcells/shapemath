@@ -1,7 +1,7 @@
 package com.netlify.hparcells.shapemath.shapes.twodimensional;
 
 /**
- * All Kite Based Math. Extends Rhombus.
+ * All Kite Based Math.
  * 
  * @author Hunter Parcells
  */

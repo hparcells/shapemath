@@ -1,7 +1,7 @@
 package com.netlify.hparcells.shapemath.shapes.twodimensional;
 
 /**
- * All Trapezoid Based Math
+ * All Trapezoid Based Math.
  * 
  * @author Hunter Parcells
  */

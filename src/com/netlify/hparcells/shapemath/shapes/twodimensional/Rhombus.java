@@ -68,9 +68,8 @@ public class Rhombus extends Quadrilateral {
 	
 	/**
 	 * Finds the area of a rhombus given the base and height.
-	 * 
-	 * @param base The length of the base.
-	 * @param height The height of the rhombus.
+	 * @param sideLength1 The length of the base.
+	 * @param sideLength2 The height of the rhombus.
 	 * @return The area of the rhombus.
 	 */
 	public static byte areaByBaseAndHeight(byte sideLength1, byte sideLength2) {
@@ -79,9 +78,8 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the area of a rhombus given the base and height.
-	 * 
-	 * @param base The length of the base.
-	 * @param height The height of the rhombus.
+	 * @param sideLength1 The length of the base.
+	 * @param sideLength2 The height of the rhombus.
 	 * @return The area of the rhombus.
 	 */
 	public static short areaByBaseAndHeight(short sideLength1, short sideLength2) {
@@ -90,9 +88,8 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the area of a rhombus given the base and height.
-	 * 
-	 * @param base The length of the base.
-	 * @param height The height of the rhombus.
+	 * @param sideLength1 The length of the base.
+	 * @param sideLength2 The height of the rhombus.
 	 * @return The area of the rhombus.
 	 */
 	public static int areaByBaseAndHeight(int sideLength1, int sideLength2) {
@@ -101,9 +98,8 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the area of a rhombus given the base and height.
-	 * 
-	 * @param base The length of the base.
-	 * @param height The height of the rhombus.
+	 * @param sideLength1 The length of the base.
+	 * @param sideLength2 The height of the rhombus.
 	 * @return The area of the rhombus.
 	 */
 	public static float areaByBaseAndHeight(float sideLength1, float sideLength2) {
@@ -112,9 +108,8 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the area of a rhombus given the base and height.
-	 * 
-	 * @param base The length of the base.
-	 * @param height The height of the rhombus.
+	 * @param sideLength1 The length of the base.
+	 * @param sideLength2 The height of the rhombus.
 	 * @return The area of the rhombus.
 	 */
 	public static double areaByBaseAndHeight(double sideLength1, double sideLength2) {
@@ -123,9 +118,8 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the area of a rhombus given the base and height.
-	 * 
-	 * @param base The length of the base.
-	 * @param height The height of the rhombus.
+	 * @param sideLength1 The length of the base.
+	 * @param sideLength2 The height of the rhombus.
 	 * @return The area of the rhombus.
 	 */
 	public static long areaByBaseAndHeight(long sideLength1, long sideLength2) {
@@ -134,7 +128,6 @@ public class Rhombus extends Quadrilateral {
 	
 	/**
 	 * Finds the perimeter of a rhombus given the side lengths.
-	 * 
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rhombus.
@@ -145,7 +138,6 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the perimeter of a rhombus given the side lengths.
-	 * 
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rhombus.
@@ -156,7 +148,6 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the perimeter of a rhombus given the side lengths.
-	 * 
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rhombus.
@@ -167,7 +158,6 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the perimeter of a rhombus given the side lengths.
-	 * 
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rhombus.
@@ -178,7 +168,6 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the perimeter of a rhombus given the side lengths.
-	 * 
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rhombus.
@@ -189,7 +178,6 @@ public class Rhombus extends Quadrilateral {
 
 	/**
 	 * Finds the perimeter of a rhombus given the side lengths.
-	 * 
 	 * @param sideLength1 The length of one of the sides.
 	 * @param sideLength2 The length of one of the other side.
 	 * @return The perimeter of the rhombus.

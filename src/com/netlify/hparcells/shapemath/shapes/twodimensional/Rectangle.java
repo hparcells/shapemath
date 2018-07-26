@@ -1,7 +1,7 @@
 package com.netlify.hparcells.shapemath.shapes.twodimensional;
 
 /**
- * All Rectangle Based Math. Extends Parallelogram.
+ * All Rectangle Based Math.
  * 
  * @author Hunter Parcells
  */

@@ -1,5 +1,10 @@
 package com.netlify.hparcells.shapemath.shapes.twodimensional;
 
+/**
+ * All Quadrilateral Based Math.
+ * 
+ * @author Hunter Parcells
+ */
 public class Quadrilateral extends Polygon {
 	/**
 	 * Finds the missing interior angle of a quadrilateral.
@@ -16,7 +21,7 @@ public class Quadrilateral extends Polygon {
 	 * Finds the missing interior angle of a quadrilateral.
 	 * @param angle1 The degrees of one of the given angles.
 	 * @param angle2 The degrees of the other given angle.
-	 * * @param angle3 The degres of the final given angle.
+	 * @param angle3 The degres of the final given angle.
 	 * @return The degrees of the missing angle.
 	 */
 	public static short missingInteriorAngle(short angle1, short angle2, short angle3) {
@@ -38,6 +43,7 @@ public class Quadrilateral extends Polygon {
 	 * Finds the missing interior angle of a quadrilateral.
 	 * @param angle1 The degrees of one of the given angles.
 	 * @param angle2 The degrees of the other given angle.
+	 * @param angle3 The degres of the final given angle.
 	 * @return The degrees of the missing angle.
 	 */
 	public static float missingInteriorAngle(float angle1, float angle2, float angle3) {
@@ -48,6 +54,7 @@ public class Quadrilateral extends Polygon {
 	 * Finds the missing interior angle of a quadrilateral.
 	 * @param angle1 The degrees of one of the given angles.
 	 * @param angle2 The degrees of the other given angle.
+	 * @param angle3 The degres of the final given angle.
 	 * @return The degrees of the missing angle.
 	 */
 	public static double missingInteriorAngle(double angle1, double angle2, double angle3) {
