@@ -5,7 +5,7 @@ package com.netlify.hparcells.shapemath.shapes.twodimensional;
  * 
  * @author Hunter Parcells
  */
-public class Trapezoid {
+public class Trapezoid extends Quadrilateral {
 	/**
 	 * Finds the area of the trapezoid given the dimensions.
 	 * @param base1 The length of one of the bases.

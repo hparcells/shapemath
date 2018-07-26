@@ -5,7 +5,7 @@ package com.netlify.hparcells.shapemath.shapes.twodimensional;
  * 
  * @author Hunter Parcells
  */
-public class Parallelogram {
+public class Parallelogram extends Quadrilateral {
 	/**
 	 * Finds the area of a parallelogram given two side lengths.
 	 * 

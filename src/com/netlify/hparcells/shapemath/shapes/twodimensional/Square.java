@@ -5,9 +5,7 @@ package com.netlify.hparcells.shapemath.shapes.twodimensional;
  * 
  * @author Hunter Parcells
  */
-public class Square extends Rectangle {
-	//Extends Rectangle
-	
+public class Square extends Rectangle {	
 	/**
 	 * Finds the area of a square given the side length.
 	 * 

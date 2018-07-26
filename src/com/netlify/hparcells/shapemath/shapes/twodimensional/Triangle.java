@@ -5,7 +5,7 @@ package com.netlify.hparcells.shapemath.shapes.twodimensional;
  * 
  * @author Hunter Parcells
  */
-public class Triangle {
+public class Triangle extends Polygon {
 	/**
 	 * Finds the area of the triangle given the base and height lengths.
 	 * @param base The base length of the triangle.

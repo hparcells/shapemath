@@ -5,7 +5,7 @@ package com.netlify.hparcells.shapemath.shapes.twodimensional;
  * 
  * @author Hunter Parcells
  */
-public class Circle {
+public class Circle extends Shape2D {
 	/**
 	 * Finds the area of a circle given the radius.
 	 * @param radius The radius of the circle.

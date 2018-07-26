@@ -5,7 +5,7 @@ package com.netlify.hparcells.shapemath.shapes.twodimensional;
  * 
  * @author Hunter Parcells
  */
-public class Rhombus {	
+public class Rhombus extends Quadrilateral {	
 	/**
 	 * Finds the area of a rhombus given the diagonal lengths.
 	 * @param diag1 The length of one of the diagonals.
