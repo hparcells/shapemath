@@ -1,4 +1,4 @@
-package com.netlify.hparcells.shapemath.lines;
+package com.netlify.hparcells.shapemath.shapes.twodimensional;
 
 /**
  * All Line and Graph Based Math.
