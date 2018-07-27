@@ -5,6 +5,6 @@ package com.netlify.hparcells.shapemath.shapes.threedimensional;
  * 
  * @author Hunter Parcells
  */
-public class Cuboid extends Prism {
+public class Cuboid extends Hexahedron {
 
 }

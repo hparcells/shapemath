@@ -1,10 +1,10 @@
 package com.netlify.hparcells.shapemath.shapes.threedimensional;
 
 /**
- * All Triangular Prism Based Math.
+ * All Hexahedron Based Math
  * 
  * @author Hunter Parcells
  */
-public class TriangularPrism extends Pentahedron {
+public class Hexahedron extends Polyhedron {
 
 }
