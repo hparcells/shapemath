@@ -5,7 +5,7 @@ package com.netlify.hparcells.shapemath.shapes.threedimensional;
  * 
  * @author Hunter Parcells
  */
-public class RectangularPrism {
+public class RectangularPrism extends Shape3D {
 	/**
 	 * Finds the volume of a rectangular prism given the dimensions.
 	 * @param length The length of the rectangular prism.
