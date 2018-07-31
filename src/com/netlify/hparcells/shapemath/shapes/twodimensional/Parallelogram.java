@@ -7,7 +7,7 @@ package com.netlify.hparcells.shapemath.shapes.twodimensional;
  */
 public class Parallelogram extends Quadrilateral {
 	/**
-	 * Finds the area of a parallelogram given two side lengths.
+	 * Finds the area of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -18,7 +18,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the area of a parallelogram given two side lengths.
+	 * Finds the area of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -29,7 +29,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the area of a parallelogram given two side lengths.
+	 * Finds the area of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -40,7 +40,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the area of a parallelogram given two side lengths.
+	 * Finds the area of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -51,7 +51,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the area of a parallelogram given two side lengths.
+	 * Finds the area of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -62,7 +62,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the area of a parallelogram given two side lengths.
+	 * Finds the area of a parallelogram given the width and height.
 	 * 
 	 * @param width he length of one of the sides.
 	 * @param height The height of the parallelogram.
@@ -73,7 +73,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the perimeter of a parallelogram given the side lengths.
+	 * Finds the perimeter of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -84,7 +84,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the perimeter of a parallelogram given the side lengths.
+	 * Finds the perimeter of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -95,7 +95,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the perimeter of a parallelogram given the side lengths.
+	 * Finds the perimeter of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -106,7 +106,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the perimeter of a parallelogram given the side lengths.
+	 * Finds the perimeter of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -117,7 +117,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the perimeter of a parallelogram given the side lengths.
+	 * Finds the perimeter of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
@@ -128,7 +128,7 @@ public class Parallelogram extends Quadrilateral {
 	}
 
 	/**
-	 * Finds the perimeter of a parallelogram given the side lengths.
+	 * Finds the perimeter of a parallelogram given the width and height.
 	 * 
 	 * @param width The width of the parallelogram.
 	 * @param height The height of the parallelogram.
