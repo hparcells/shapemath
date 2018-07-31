@@ -125,4 +125,76 @@ public class Square extends Rectangle {
 	public static long perimeterBySide(long sideLength) {
 		return sideLength * 4;
 	}
+	
+	/**
+	 * Finds the perimeter of a square given the area.
+	 * 
+	 * @param area The area of the square.
+	 * @return The perimeter of the square.
+	 */
+	public static byte perimeterByArea(byte area) {
+		byte sideLength = (byte) Math.sqrt(area);
+
+		return (byte) (sideLength * 4);
+	}
+
+	/**
+	 * Finds the perimeter of a square given the area.
+	 * 
+	 * @param area The area of the square.
+	 * @return The perimeter of the square.
+	 */
+	public static short perimeterByArea(short area) {
+		short sideLength = (short) Math.sqrt(area);
+
+		return (short) (sideLength * 4);
+	}
+
+	/**
+	 * Finds the perimeter of a square given the area.
+	 * 
+	 * @param area The area of the square.
+	 * @return The perimeter of the square.
+	 */
+	public static int perimeterByArea(int area) {
+		int sideLength = (int) Math.sqrt(area);
+
+		return sideLength * 4;
+	}
+
+	/**
+	 * Finds the perimeter of a square given the area.
+	 * 
+	 * @param area The area of the square.
+	 * @return The perimeter of the square.
+	 */
+	public static float perimeterByArea(float area) {
+		float sideLength = (float) Math.sqrt(area);
+
+		return sideLength * 4;
+	}
+
+	/**
+	 * Finds the perimeter of a square given the area.
+	 * 
+	 * @param area The area of the square.
+	 * @return The perimeter of the square.
+	 */
+	public static double perimeterByArea(double area) {
+		double sideLength = Math.sqrt(area);
+
+		return sideLength * 4;
+	}
+
+	/**
+	 * Finds the perimeter of a square given the area.
+	 * 
+	 * @param area The area of the square.
+	 * @return The perimeter of the square.
+	 */
+	public static long perimeterByArea(long area) {
+		long sideLength = (long) Math.sqrt(area);
+
+		return sideLength * 4;
+	}
 }
