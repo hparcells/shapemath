@@ -50,4 +50,49 @@ public class Polygon extends Shape2D {
 		
 		return 360 - total;
 	}
+	
+	/**
+	 * Finds the missing exterior angle given the other exterior angles.
+	 * @param exteriorAngles All the exterior angles.
+	 * @return The amount of degress for the missing angle.
+	 */
+	public static float missingExteriorAngle(float... exteriorAngles) {
+		float total = 0;
+		
+		for(int i = 0; i < exteriorAngles.length; i++) {
+			total += exteriorAngles[i];
+		}
+		
+		return 360 - total;
+	}
+	
+	/**
+	 * Finds the missing exterior angle given the other exterior angles.
+	 * @param exteriorAngles All the exterior angles.
+	 * @return The amount of degress for the missing angle.
+	 */
+	public static double missingExteriorAngle(double... exteriorAngles) {
+		double total = 0;
+		
+		for(int i = 0; i < exteriorAngles.length; i++) {
+			total += exteriorAngles[i];
+		}
+		
+		return 360 - total;
+	}
+	
+	/**
+	 * Finds the missing exterior angle given the other exterior angles.
+	 * @param exteriorAngles All the exterior angles.
+	 * @return The amount of degress for the missing angle.
+	 */
+	public static long missingExteriorAngle(long... exteriorAngles) {
+		long total = 0;
+		
+		for(int i = 0; i < exteriorAngles.length; i++) {
+			total += exteriorAngles[i];
+		}
+		
+		return 360 - total;
+	}
 }

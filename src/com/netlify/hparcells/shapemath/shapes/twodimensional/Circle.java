@@ -192,7 +192,7 @@ public class Circle extends Shape2D {
 	 * @return The circumference of the circle.
 	 */
 	public static byte circumferenceByRadius(byte radius) {
-		return (byte) (Math.PI * (radius / 2));
+		return (byte) (Math.PI * (radius * 2));
 	}
 	
 	/**
@@ -201,7 +201,7 @@ public class Circle extends Shape2D {
 	 * @return The circumference of the circle.
 	 */
 	public static short circumferenceByRadius(short radius) {
-		return (short) (Math.PI * (radius / 2));
+		return (short) (Math.PI * (radius * 2));
 	}
 	
 	/**
@@ -210,7 +210,7 @@ public class Circle extends Shape2D {
 	 * @return The circumference of the circle.
 	 */
 	public static int circumferenceByRadius(int radius) {
-		return (int) (Math.PI * (radius / 2));
+		return (int) (Math.PI * (radius * 2));
 	}
 	
 	/**
@@ -219,7 +219,7 @@ public class Circle extends Shape2D {
 	 * @return The circumference of the circle.
 	 */
 	public static float circumferenceByRadius(float radius) {
-		return (float) (Math.PI * (radius / 2));
+		return (float) (Math.PI * (radius * 2));
 	}
 	
 	/**
@@ -228,7 +228,7 @@ public class Circle extends Shape2D {
 	 * @return The circumference of the circle.
 	 */
 	public static double circumferenceByRadius(double radius) {
-		return Math.PI * (radius / 2);
+		return Math.PI * (radius * 2);
 	}
 	
 	/**
@@ -237,6 +237,6 @@ public class Circle extends Shape2D {
 	 * @return The circumference of the circle.
 	 */
 	public static long circumferenceByRadius(long radius) {
-		return (long) (Math.PI * (radius / 2));
+		return (long) (Math.PI * (radius * 2));
 	}
 }
