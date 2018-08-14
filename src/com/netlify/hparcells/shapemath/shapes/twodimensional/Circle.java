@@ -12,8 +12,8 @@ public class Circle extends Shape2D {
 	 * @return The area of the circle.
 	 */
 	public static byte areaByRadius(byte radius) {
-		byte beforeSq = (byte) (Math.PI * radius);
-		return (byte) (beforeSq * beforeSq);
+		byte radSq = (byte) (radius * radius);
+		return (byte) (Math.PI * radSq);
 	}
 	
 	/**
@@ -22,8 +22,8 @@ public class Circle extends Shape2D {
 	 * @return The area of the circle.
 	 */
 	public static short areaByRadius(short radius) {
-		short beforeSq = (short) (Math.PI * radius);
-		return (short) (beforeSq * beforeSq);
+		short radSq = (short) (radius * radius);
+		return (short) (Math.PI * radSq);
 	}
 	
 	/**
@@ -32,8 +32,8 @@ public class Circle extends Shape2D {
 	 * @return The area of the circle.
 	 */
 	public static int areaByRadius(int radius) {
-		int beforeSq = (int) (Math.PI * radius);
-		return beforeSq * beforeSq;
+		int radSq = radius * radius;
+		return (int) (Math.PI * radSq);
 	}
 	
 	/**
@@ -42,8 +42,8 @@ public class Circle extends Shape2D {
 	 * @return The area of the circle.
 	 */
 	public static float areaByRadius(float radius) {
-		float beforeSq = (float) (Math.PI * radius);
-		return beforeSq * beforeSq;
+		float radSq = radius * radius;
+		return (float) (Math.PI * radSq);
 	}
 	
 	/**
@@ -52,8 +52,8 @@ public class Circle extends Shape2D {
 	 * @return The area of the circle.
 	 */
 	public static double areaByRadius(double radius) {
-		double beforeSq = Math.PI * radius;
-		return beforeSq * beforeSq;
+		double radSq = radius * radius;
+		return Math.PI * radSq;
 	}
 	
 	/**
@@ -62,8 +62,8 @@ public class Circle extends Shape2D {
 	 * @return The area of the circle.
 	 */
 	public static long areaByRadius(long radius) {
-		long beforeSq = (long) (Math.PI * radius);
-		return beforeSq * beforeSq;
+		long radSq = radius * radius;
+		return (long) (Math.PI * radSq);
 	}
 	
 	/**
@@ -71,10 +71,10 @@ public class Circle extends Shape2D {
 	 * @param diameter The diameter of the circle.
 	 * @return The area of the circle.
 	 */
-	public static byte areaByDiameter(byte diameter) {
+	public static byte areaByDiameter(byte diameter) {		
 		byte radius = (byte) (diameter / 2);
-		byte beforeSq = (byte) (Math.PI * radius);
-		return (byte) (beforeSq * beforeSq);
+		byte radSq = (byte) (radius * radius);
+		return (byte) (Math.PI * radSq);
 	}
 	
 	/**
@@ -84,8 +84,8 @@ public class Circle extends Shape2D {
 	 */
 	public static short areaByDiameter(short diameter) {
 		short radius = (short) (diameter / 2);
-		short beforeSq = (short) (Math.PI * radius);
-		return (short) (beforeSq * beforeSq);
+		short radSq = (short) (radius * radius);
+		return (short) (Math.PI * radSq);
 	}
 	
 	/**
@@ -95,8 +95,8 @@ public class Circle extends Shape2D {
 	 */
 	public static int areaByDiameter(int diameter) {
 		int radius = diameter / 2;
-		int beforeSq = (int) (Math.PI * radius);
-		return beforeSq * beforeSq;
+		int radSq = radius * radius;
+		return (int) (Math.PI * radSq);
 	}
 	
 	/**
@@ -106,8 +106,8 @@ public class Circle extends Shape2D {
 	 */
 	public static float areaByDiameter(float diameter) {
 		float radius = diameter / 2;
-		float beforeSq = (float) (Math.PI * radius);
-		return beforeSq * beforeSq;
+		float radSq = radius * radius;
+		return (float) (Math.PI * radSq);
 	}
 	
 	/**
@@ -117,8 +117,8 @@ public class Circle extends Shape2D {
 	 */
 	public static double areaByDiameter(double diameter) {
 		double radius = diameter / 2;
-		double beforeSq = Math.PI * radius;
-		return beforeSq * beforeSq;
+		double radSq = radius * radius;
+		return Math.PI * radSq;
 	}
 	
 	/**
@@ -128,8 +128,8 @@ public class Circle extends Shape2D {
 	 */
 	public static long areaByDiameter(long diameter) {
 		long radius = diameter / 2;
-		long beforeSq = (long) (Math.PI * radius);
-		return beforeSq * beforeSq;
+		long radSq = radius * radius;
+		return (long) (Math.PI * radSq);
 	}
 	
 	/**
