@@ -5,6 +5,6 @@ package com.netlify.hparcells.shapemath.shapes.threedimensional;
  * 
  * @author Hunter Parcells
  */
-public class Hemisphere extends Sphere {
+public class Hemisphere extends Shape3D {
 
 }

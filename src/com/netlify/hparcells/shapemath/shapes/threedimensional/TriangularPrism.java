@@ -5,6 +5,6 @@ package com.netlify.hparcells.shapemath.shapes.threedimensional;
  * 
  * @author Hunter Parcells
  */
-public class TriangularPrism extends Pentahedron {
+public class TriangularPrism extends Polyhedron {
 
 }
