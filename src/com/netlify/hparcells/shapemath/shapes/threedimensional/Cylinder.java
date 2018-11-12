@@ -281,4 +281,106 @@ public class Cylinder extends Shape3D {
 
         return round + twoCircles;
 	}
+	
+	/**
+	 * Finds the surface area of the cylinder.
+	 * @param radius The radius of the circle base.
+	 * @param height The height of the cylinder.
+	 * @return The surface area of the cylinder.
+	 */
+	public static byte surfaceAreaByRadius(byte radius, byte height) {
+		byte radiusSquared = (byte) Math.pow(radius, 2);
+		byte oneCircle = (byte) (Math.PI * radiusSquared);
+		byte twoCircles = (byte) (oneCircle * 2);
+
+		byte piDiameter = (byte) (Math.PI * (radius * 2));
+		byte round = (byte) (piDiameter * height);
+
+        return (byte) (round + twoCircles);
+	}
+	
+	/**
+	 * Finds the surface area of the cylinder.
+	 * @param radius The radius of the circle base.
+	 * @param height The height of the cylinder.
+	 * @return The surface area of the cylinder.
+	 */
+	public static short surfaceAreaByRadius(short radius, short height) {
+		short radiusSquared = (short) Math.pow(radius, 2);
+		short oneCircle = (short) (Math.PI * radiusSquared);
+		short twoCircles = (short) (oneCircle * 2);
+
+		short piDiameter = (short) (Math.PI * (radius * 2));
+		short round = (short) (piDiameter * height);
+
+        return (short) (round + twoCircles);
+	}
+	
+	/**
+	 * Finds the surface area of the cylinder.
+	 * @param radius The radius of the circle base.
+	 * @param height The height of the cylinder.
+	 * @return The surface area of the cylinder.
+	 */
+	public static int surfaceAreaByRadius(int radius, int height) {
+		int radiusSquared = (int) Math.pow(radius, 2);
+		int oneCircle = (int) (Math.PI * radiusSquared);
+		int twoCircles = oneCircle * 2;
+
+		int piDiameter = (int) (Math.PI * (radius * 2));
+		int round = piDiameter * height;
+
+        return round + twoCircles;
+	}
+	
+	/**
+	 * Finds the surface area of the cylinder.
+	 * @param radius The radius of the circle base.
+	 * @param height The height of the cylinder.
+	 * @return The surface area of the cylinder.
+	 */
+	public static float surfaceAreaByRadius(float radius, float height) {
+		float radiusSquared = (float) Math.pow(radius, 2);
+		float oneCircle = (float) (Math.PI * radiusSquared);
+		float twoCircles = oneCircle * 2;
+
+		float piDiameter = (float) (Math.PI * (radius * 2));
+		float round = piDiameter * height;
+
+        return round + twoCircles;
+	}
+	
+	/**
+	 * Finds the surface area of the cylinder.
+	 * @param radius The radius of the circle base.
+	 * @param height The height of the cylinder.
+	 * @return The surface area of the cylinder.
+	 */
+	public static double surfaceAreaByRadius(double radius, double height) {
+		double radiusSquared = Math.pow(radius, 2);
+		double oneCircle = Math.PI * radiusSquared;
+		double twoCircles = oneCircle * 2;
+
+		double piDiameter = Math.PI * (radius * 2);
+		double round = piDiameter * height;
+
+        return round + twoCircles;
+	}
+	
+	/**
+	 * Finds the surface area of the cylinder.
+	 * @param radius The radius of the circle base.
+	 * @param height The height of the cylinder.
+	 * @return The surface area of the cylinder.
+	 */
+	public static long surfaceAreaByRadius(long radius, long height) {
+		long radiusSquared = (long) Math.pow(radius, 2);
+		long oneCircle = (long) (Math.PI * radiusSquared);
+		long twoCircles = oneCircle * 2;
+
+		long piDiameter = (long) (Math.PI * (radius * 2));
+		long round = piDiameter * height;
+
+        return round + twoCircles;
+	}
 }
