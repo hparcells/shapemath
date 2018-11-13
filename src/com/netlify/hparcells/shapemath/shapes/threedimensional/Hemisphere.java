@@ -167,4 +167,154 @@ public class Hemisphere extends Shape3D {
         
         return sphere / 2;
 	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param radius The radius of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static byte surfaceAreaByRadius(byte radius) {
+		byte radiusSquared = (byte) Math.pow(radius, 2);
+		byte piRadiusSquared = (byte) (Math.PI * radiusSquared);
+
+        return (byte) (3 * piRadiusSquared);
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param radius The radius of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static short surfaceAreaByRadius(short radius) {
+		short radiusSquared = (short) Math.pow(radius, 2);
+		short piRadiusSquared = (short) (Math.PI * radiusSquared);
+
+        return (short) (3 * piRadiusSquared);
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param radius The radius of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static int surfaceAreaByRadius(int radius) {
+		int radiusSquared = (int) Math.pow(radius, 2);
+		int piRadiusSquared = (int) (Math.PI * radiusSquared);
+
+        return 3 * piRadiusSquared;
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param radius The radius of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static float surfaceAreaByRadius(float radius) {
+		float radiusSquared = (float) Math.pow(radius, 2);
+		float piRadiusSquared = (float) (Math.PI * radiusSquared);
+
+        return 3 * piRadiusSquared;
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param radius The radius of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static double surfaceAreaByRadius(double radius) {
+		double radiusSquared = Math.pow(radius, 2);
+		double piRadiusSquared = Math.PI * radiusSquared;
+
+        return 3 * piRadiusSquared;
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param radius The radius of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static long surfaceAreaByRadius(long radius) {
+		long radiusSquared = (long) Math.pow(radius, 2);
+		long piRadiusSquared = (long) (Math.PI * radiusSquared);
+
+        return 3 * piRadiusSquared;
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param diameter The diameter of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static byte surfaceAreaByDiameter(byte diameter) {
+		byte radius = (byte) (diameter / 2);
+		byte radiusSquared = (byte) Math.pow(radius, 2);
+		byte piRadiusSquared = (byte) (Math.PI * radiusSquared);
+
+        return (byte) (3 * piRadiusSquared);
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param diameter The diameter of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static short surfaceAreaByDiameter(short diameter) {
+		short radius = (short) (diameter / 2);
+		short radiusSquared = (short) Math.pow(radius, 2);
+		short piRadiusSquared = (short) (Math.PI * radiusSquared);
+
+        return (short) (3 * piRadiusSquared);
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param diameter The diameter of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static int surfaceAreaByDiameter(int diameter) {
+		int radius = diameter / 2;
+		int radiusSquared = (int) Math.pow(radius, 2);
+		int piRadiusSquared = (int) (Math.PI * radiusSquared);
+
+        return 3 * piRadiusSquared;
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param diameter The diameter of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static float surfaceAreaByDiameter(float diameter) {
+		float radius = diameter / 2;
+		float radiusSquared = (float) Math.pow(radius, 2);
+		float piRadiusSquared = (float) (Math.PI * radiusSquared);
+
+        return 3 * piRadiusSquared;
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param diameter The diameter of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static double surfaceAreaByDiameter(double diameter) {
+		double radius = diameter / 2;
+		double radiusSquared = Math.pow(radius, 2);
+		double piRadiusSquared = Math.PI * radiusSquared;
+
+        return 3 * piRadiusSquared;
+	}
+	
+	/**
+	 * Finds the surface area of the hemisphere.
+	 * @param diameter The diameter of the hemisphere.
+	 * @return The surface area of the hemisphere.
+	 */
+	public static long surfaceAreaByDiameter(long diameter) {
+		long radius = diameter / 2;
+		long radiusSquared = (long) Math.pow(radius, 2);
+		long piRadiusSquared = (long) (Math.PI * radiusSquared);
+
+        return 3 * piRadiusSquared;
+	}
 }
