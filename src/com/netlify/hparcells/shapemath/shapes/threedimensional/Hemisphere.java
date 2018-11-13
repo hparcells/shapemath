@@ -84,17 +84,6 @@ public class Hemisphere extends Shape3D {
         return sphere / 2;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	/**
 	 * Finds the volume for a hemisphere.
 	 * @param diameter The diameter of the hemisphere.
